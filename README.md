@@ -6,18 +6,17 @@ reserva_carro/
 │   ├── main/
 │   │   └── java/
 │   │       └── reserva/
-│   │           ├── ReservaService.java
-│   │           └── AreaCobertura.java
+│   │           └── ReservaService.java
 │   └── test/
 │       ├── java/
-│       │   ├── runner/
-│       │   │   ├── ReservaRun.java
-│       │   ├── steps/
-│       │   │   └── ReservaSteps.java
-│       │   └── ReservaServiceTest.java
+│       │   └── runner/
+│       │       └── ReservaServiceTest.java   
+│       │       └── ReservaRun.java   
+│       │   └── steps/
+│       │       └── ReservaSteps.java          
 │       └── resources/
 │           └── features/
-│               └── reserva.feature
+│               └── reserva.feature                   
 
 2. Implementação TDD
 pom.xml
