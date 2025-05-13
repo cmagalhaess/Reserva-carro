@@ -35,3 +35,11 @@ reserva_carro/
 
 ```bash
 mvn test -Dtest=ReservaServiceTest
+
+Testes BDD com Cucumber
+bash
+Copiar
+Editar
+mvn test
+O relatório será gerado em:
+target/cucumber-reports.html
